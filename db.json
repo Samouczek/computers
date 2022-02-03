@@ -1,0 +1,46 @@
+{
+  "computers": [
+    {
+      "id": "1",
+      "name": "ASUS",
+      "description": "Laptop do biura",
+      "price": "1000"
+    },
+    {
+      "id": "2",
+      "name": "Lenovo",
+      "description": "Laptop do pracy",
+      "price": "2000"
+    },
+    {
+      "id": "3",
+      "name": "Acer",
+      "description": "Laptop do gier",
+      "price": "3000"
+    },
+    {
+      "name": "Dell",
+      "description": " Laptop do gry",
+      "price": "4000",
+      "id": "OoHJJlq"
+    },
+    {
+      "name": "LCO PRO",
+      "description": " Komputer stacjonarny nowej generacji",
+      "price": "6000",
+      "id": "CAcolo2"
+    },
+    {
+      "name": "Komputer ACTINA R5-3600 16GB SSD 1TB GeForce RTX3060Ti Windows 10 Home",
+      "description": " Pragniemy przedstawić Ci zjawiskowy, gamingowy komputer ACTINA, który jest szczytem marzeń każdego gracza. W jego wnętrzu znajdziesz 6-rdzeniowy procesor AMD Ryzen 5 3600 z pamięcią podręczną 32 MB, a także kartę graficzną NVIDIA GeForce RTX 3060 Ti oraz dysk SSD o pojemności 1000 GB.",
+      "price": "7000",
+      "id": "4W2yH8K"
+    },
+    {
+      "name": "APPLE Mac Mini M1 8GB SSD 256GB macOS",
+      "description": " Czip Apple M1 przenosi najbardziej wszechstronny komputer stacjonarny w inny wymiar. Teraz prędkość procesora komputera APPLE Mac Mini wzrosła 3 razy i do 6 razy zwiększona została prędkość grafiki. Zaawansowany system Neural Engine umożliwiający 15-krotnie szybsze samouczenie. Dzięki temu możesz pracować, bawić się i tworzyć na komputerze Mac mini, nie martwiąc się o szybkość i moc, której nie zabraknie.",
+      "price": "3700",
+      "id": "PEQ30eC"
+    }
+  ]
+}
