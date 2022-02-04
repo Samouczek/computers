@@ -1,0 +1,9 @@
+:root {
+  --color-black-primary: rgb(8, 8, 8);
+  --color-black-secondary: rgba(25, 25, 25, 1);
+  --color-black-tertiary: rgb(41, 41, 41);
+
+  --color-gray-primary: rgb(117, 117, 117);
+
+  --color-white-primary: rgb(240, 240, 240);
+}

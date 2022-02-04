@@ -31,16 +31,22 @@
       "id": "CAcolo2"
     },
     {
-      "name": "Komputer ACTINA R5-3600 16GB SSD 1TB GeForce RTX3060Ti Windows 10 Home",
+      "name": "ACTINA R5-3600",
       "description": " Pragniemy przedstawić Ci zjawiskowy, gamingowy komputer ACTINA, który jest szczytem marzeń każdego gracza. W jego wnętrzu znajdziesz 6-rdzeniowy procesor AMD Ryzen 5 3600 z pamięcią podręczną 32 MB, a także kartę graficzną NVIDIA GeForce RTX 3060 Ti oraz dysk SSD o pojemności 1000 GB.",
       "price": "7000",
       "id": "4W2yH8K"
     },
     {
-      "name": "APPLE Mac Mini M1 8GB SSD 256GB macOS",
+      "name": "APPLE Mac Mini M1",
       "description": " Czip Apple M1 przenosi najbardziej wszechstronny komputer stacjonarny w inny wymiar. Teraz prędkość procesora komputera APPLE Mac Mini wzrosła 3 razy i do 6 razy zwiększona została prędkość grafiki. Zaawansowany system Neural Engine umożliwiający 15-krotnie szybsze samouczenie. Dzięki temu możesz pracować, bawić się i tworzyć na komputerze Mac mini, nie martwiąc się o szybkość i moc, której nie zabraknie.",
       "price": "3700",
       "id": "PEQ30eC"
+    },
+    {
+      "name": "Laptop HP 15S 15.6\" ",
+      "description": "Zaprojektowany z myślą o długotrwałej wydajności, stylowy komputer przenośny HP 15S z ekranem o przekątnej 15,6″ (39,6 cm) został wyposażony w baterię o długim czasie pracy, która zapewni łączność, rozrywkę i wydajność przez cały dzień. Zrealizuj błyskawicznie swoje zadania lub usiądź wygodnie i oddaj się rozrywce dzięki procesorowi AMD Ryzen 3 5300U oraz bogatemu w detale wyświetlaczowi. Rób to, co chcesz.",
+      "price": "2200",
+      "id": "CBnkGtj"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import classes from './NewComputerForm.module.css';
+import { form, control, actions } from './NewComputerForm.module.css';
 import Card from './ui/Card';
 
 export function NewComputerForm(props) {
@@ -26,16 +26,16 @@ export function NewComputerForm(props) {
 
   return (
     <Card>
-      <form className={classes.form}>
-        <div className={classes.control}>
+      <form className={form}>
+        <div className={control}>
           <label htmlFor='name'>Nazwa</label>
           <input type='text' required id='name' ref={nameInputRef}/>
         </div>
-        <div className={classes.control}>
+        <div className={control}>
           <label htmlFor='price'>Cena</label>
           <input type='number' required id='price' ref={priceInputRef}/>
         </div>
-        <div className={classes.control}>
+        <div className={control}>
           <label htmlFor='description'>Opis</label>
           <textarea
             id='description'
@@ -44,7 +44,7 @@ export function NewComputerForm(props) {
             ref={descriptionInputRef}
           > </textarea>
         </div>
-        <div className={classes.actions}>
+        <div className={actions}>
           <button onClick={handleClick}>Dodaj</button>
         </div>
       </form>

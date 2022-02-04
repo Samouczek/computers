@@ -34,18 +34,13 @@
 }
 
 .actions button {
-  font: inherit;
-  cursor: pointer;
-  background-color: rgba(25, 25, 25, 1);
+  background-color: var(--color-black-secondary);
   color: white;
-  padding: 0.5rem 1.5rem;
-  border: 1px solid rgba(25, 25, 25, 1);
-  border-radius: 0.25rem;
   font-weight: bold;
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: rgb(8, 8, 8);
-  border-color: rgb(8, 8, 8);
+  background-color: var(--color-black-primary);
+  border-color: var(--color-black-primary);
 }

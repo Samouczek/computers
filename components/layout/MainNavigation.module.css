@@ -11,7 +11,7 @@
 
 .logo {
   font-size: 2rem;
-  color: rgba(25, 25, 25, 1);
+  color: var(--color-black-secondary);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -31,11 +31,11 @@
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: rgb(117, 117, 117);
+  color: var(--color-gray-primary);
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: rgb(41, 41, 41);
+  color: var(--color-black-tertiary);
 }

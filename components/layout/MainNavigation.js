@@ -1,12 +1,11 @@
 import Link from 'next/link';
 
-import classes from './MainNavigation.module.css';
+import { header, logo } from './MainNavigation.module.css';
 
-function MainNavigation() {
-
+export default function MainNavigation() {
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>Komputery</div>
+    <header className={header}>
+      <div className={logo}>Komputery</div>
       <nav>
         <ul>
           <li>
@@ -20,5 +19,3 @@ function MainNavigation() {
     </header>
   );
 }
-
-export default MainNavigation;

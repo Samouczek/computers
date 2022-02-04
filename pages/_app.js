@@ -1,4 +1,6 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import '../styles/button.css'
+import '../styles/colors.css';
 import Layout from '../components/layout/Layout';
 
 function MyApp({Component, pageProps}) {

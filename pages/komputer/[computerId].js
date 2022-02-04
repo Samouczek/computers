@@ -1,11 +1,12 @@
 import { ComputerDetail } from '../../components/ComputerDetail';
 
 export default function ComputerPage(props) {
+  const { name, description, price } = props.computer;
   return (
     <ComputerDetail
-      name={props.computer.name}
-      price={props.computer.price}
-      description={props.computer.description}
+      name={name}
+      price={price}
+      description={description}
     />
   )
 }
@@ -20,10 +21,10 @@ export async function getStaticPaths() {
   const computers = await response.json();
 
   const paths = computers.map((computer) => ({
-    params: {computerId: computer.id}
+    params: { computerId: computer.id }
   }))
 
-  return {paths, fallback: 'blocking'};
+  return { paths, fallback: 'blocking' };
 }
 
 export async function getStaticProps(context) {
@@ -34,17 +35,17 @@ export async function getStaticProps(context) {
       'Content-Type': 'application/json',
     },
   });
-  const computer = await response.json();
+  const { id, name, description, price } = await response.json();
 
   return {
     props: {
       computer: {
-        id: computer.id,
-        name: computer.name,
-        description: computer.description,
-        price: computer.price,
+        id,
+        name,
+        description,
+        price,
       }
     },
-    revalidate: 1
+    revalidate: 10
   };
 }
